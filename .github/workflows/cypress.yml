@@ -1,7 +1,7 @@
 name: Cypress e2e Tests
 on: 
   workflow_dispatch:
-    input:
+    inputs:
       spec:
         default: cypress/e2e/*
 jobs:
